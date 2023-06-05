@@ -20,9 +20,6 @@ fun Navigation() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = Screen.MainScreen.route) {
         composable(route ="main_screen") {
-
-
-
             MainScreen(navController = navController)
         }
         composable(
